@@ -26,11 +26,11 @@ $MODPACK_NAME = "techmyth-pack"
 $CLIENT_NAME = "Techmyth"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.0"
+$MODPACK_VERSION = "0.2.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.1.1"
+$LAST_MODPACK_VERSION = "0.2.0"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -58,7 +58,7 @@ $CLIENT_CHANGELOG = "[![]()](https://github.com/sasaanfafaan/The-Techmyth-Pack/b
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(75125)
+$GAME_VERSIONS = @(9990)
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "beta"

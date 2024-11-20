@@ -9,7 +9,7 @@ install:
   installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
   installerArguments:
     - "--installServer"
-  modpackUrl: https://mediafilez.forgecdn.net/files/5921/712/The+Techmyth+Pack-0.2.0.zip
+  modpackUrl: https://mediafilez.forgecdn.net/files/5923/785/Techmyth-0.2.1.zip
   modpackFormat: curse
 
   formatSpecific:
