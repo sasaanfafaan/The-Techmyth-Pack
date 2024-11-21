@@ -26,11 +26,11 @@ $MODPACK_NAME = "techmyth-pack"
 $CLIENT_NAME = "Techmyth"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.1"
+$MODPACK_VERSION = "0.2.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.2.0"
+$LAST_MODPACK_VERSION = "0.2.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -47,7 +47,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "[![]()](https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/CHANGELOG.md)"
+$CLIENT_CHANGELOG = "(https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/CHANGELOG.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS

@@ -1,17 +1,28 @@
 _specver: 2
+
 modpack:
   name: The Techmyth Pack
   description: The ultimate forge 1.20.1 kitchen sink pack!
-
+  
 install:
   mcVersion: 1.20.1
   loaderVersion: 47.3.12
+  modpackUrl: "https://mediafilez.forgecdn.net/files/5924/95/Techmyth-0.2.2.zip"
   installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
+  
+  ignoreFiles:
+    - mods/optifine*.jar
+    - resources/**
+  additionalFiles:
+    - url: "https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar"
+      destination: "mods/Morpheus-1.15.2-4.2.46.jar"
+    - url: "https://media.forgecdn.net/files/2876/89/spark-forge.jar"
+      destination: "mods/spark-forge.jar"
+  localFiles: ~
   installerArguments:
     - "--installServer"
-  modpackUrl: https://mediafilez.forgecdn.net/files/5923/785/Techmyth-0.2.1.zip
   modpackFormat: curse
-
+  
   formatSpecific:
     ignoreProject:
       - 263420  #Xaeros Minimap
@@ -62,23 +73,19 @@ install:
       - 985426  #Particle Core
       - 351441  #Pick up notifier
       - 377109  #Tool Stats
-
-  baseInstallPath:
-  additionalFiles: ~
-    url: https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar
-    destination: mods/Morpheus-1.15.2-4.2.46.jar
-    url: https://media.forgecdn.net/files/2876/89/spark-forge.jar
-    destination: mods/spark-forge.jar
+      
+  baseInstallPath: 
+  
   checkFolder: true
+  
   installLoader: true
-  installPack: true
+    
   spongeBootstrapper: ~
+
   connectTimeout: 90
+
   readTimeout: 90
 
-
-
-# settings regarding the launching of the pack
 launch:
   # specifies the max amount of ram the server is supposed to launch with (Xmx)
   maxRam: 12G
@@ -86,27 +93,6 @@ launch:
   minRam: 6G
   # specifies whether the server is supposed to auto restart after crash
   autoRestart: false
-  javaArgs:
-  "-XX:+UseG1GC"
-  "-XX:+ParallelRefProcEnabled"
-  "-XX:MaxGCPauseMillis=200"
-  "-XX:+UnlockExperimentalVMOptions"
-  "-XX:+DisableExplicitGC"
-  "-XX:+AlwaysPreTouch"
-  "-XX:G1NewSizePercent=30"
-  "-XX:G1MaxNewSizePercent=40"
-  "-XX:G1HeapRegionSize=8M"
-  "-XX:G1ReservePercent=20"
-  "-XX:G1HeapWastePercent=5"
-  "-XX:G1MixedGCCountTarget=4"
-  "-XX:InitiatingHeapOccupancyPercent=15"
-  "-XX:G1MixedGCLiveThresholdPercent=90"
-  "-XX:G1RSetUpdatingPauseTimePercent=5"
-  "-XX:SurvivorRatio=32"
-  "-XX:+PerfDisableSharedMem"
-  "-XX:MaxTenuringThreshold=1"
-  "-Dusing.aikars.flags=https://mcflags.emc.gs"
-  "-Daikars.new.flags=true"
   spongefix: false
   ramDisk: false
   checkOffline: false
@@ -114,6 +100,8 @@ launch:
   crashTimer: 60min
   preJavaArgs: ~
   forcedJavaPath: ~
+  supportedJavaVersions: [17]
   startCommand:
+    - "@user_jvm_args.txt"
     - "@libraries/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/{{@os@}}_args.txt"
     - "nogui"
