@@ -1,28 +1,21 @@
+---
 _specver: 2
-
 modpack:
   name: The Techmyth Pack
   description: The ultimate forge 1.20.1 kitchen sink pack!
-  
 install:
   mcVersion: 1.20.1
   loaderVersion: 47.3.12
-  modpackUrl: "https://mediafilez.forgecdn.net/files/5924/95/Techmyth-0.2.2.zip"
-  installerUrl: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
-  
+  modpackUrl: https://edge.forgecdn.net/files/5924/317/Techmyth-0.2.3.zip
+  installerUrl: https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar
   ignoreFiles:
     - mods/optifine*.jar
     - resources/**
-  additionalFiles:
-    - url: "https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar"
-      destination: "mods/Morpheus-1.15.2-4.2.46.jar"
-    - url: "https://media.forgecdn.net/files/2876/89/spark-forge.jar"
-      destination: "mods/spark-forge.jar"
-  localFiles: ~
+  additionalFiles: null
+  localFiles: null
   installerArguments:
-    - "--installServer"
+    - --installServer
   modpackFormat: curse
-  
   formatSpecific:
     ignoreProject:
       - 263420  #Xaeros Minimap
@@ -73,35 +66,26 @@ install:
       - 985426  #Particle Core
       - 351441  #Pick up notifier
       - 377109  #Tool Stats
-      
-  baseInstallPath: 
-  
+      - 887484  #Xaeros Waystone compat
+  baseInstallPath: null
   checkFolder: true
-  
   installLoader: true
-    
-  spongeBootstrapper: ~
-
+  installPack: true
+  spongeBootstrapper: null
   connectTimeout: 90
-
   readTimeout: 90
-
 launch:
-  # specifies the max amount of ram the server is supposed to launch with (Xmx)
   maxRam: 12G
-  # specifies the minimal amount of ram the server is supposed to launch with (Xms)
   minRam: 6G
-  # specifies whether the server is supposed to auto restart after crash
   autoRestart: false
   spongefix: false
   ramDisk: false
   checkOffline: false
   crashLimit: 10
   crashTimer: 60min
-  preJavaArgs: ~
-  forcedJavaPath: ~
-  supportedJavaVersions: [17]
+  preJavaArgs: null
+  forcedJavaPath: null
   startCommand:
     - "@user_jvm_args.txt"
     - "@libraries/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/{{@os@}}_args.txt"
-    - "nogui"
+    - nogui
