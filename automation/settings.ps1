@@ -47,7 +47,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "(https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/changelog_mods_$MODPACK_VERSION.md)"
+$CLIENT_CHANGELOG = "https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
