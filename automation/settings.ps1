@@ -26,11 +26,11 @@ $MODPACK_NAME = "techmyth-pack"
 $CLIENT_NAME = "Techmyth"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.2"
+$MODPACK_VERSION = "0.2.3"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.2.1"
+$LAST_MODPACK_VERSION = "0.2.2"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -47,7 +47,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "(https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/CHANGELOG.md)"
+$CLIENT_CHANGELOG = "(https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/changelog_mods_$MODPACK_VERSION.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -125,13 +125,13 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 
 # Toggle server file feature on/off
 # Default: $true
-$ENABLE_SERVER_FILE_MODULE = $true
+$ENABLE_SERVER_FILE_MODULE = $false
 
 # Toggle serverstarter compatibility on/off
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $true
+$ENABLE_SERVERSTARTER_MODULE = $false
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
