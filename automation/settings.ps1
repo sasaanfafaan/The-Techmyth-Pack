@@ -26,11 +26,11 @@ $MODPACK_NAME = "techmyth-pack"
 $CLIENT_NAME = "Techmyth"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.3"
+$MODPACK_VERSION = "0.2.4"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.2.2"
+$LAST_MODPACK_VERSION = "0.2.3"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -125,13 +125,13 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 
 # Toggle server file feature on/off
 # Default: $true
-$ENABLE_SERVER_FILE_MODULE = $false
+$ENABLE_SERVER_FILE_MODULE = $true
 
 # Toggle serverstarter compatibility on/off
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $false
+$ENABLE_SERVERSTARTER_MODULE = $true
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
