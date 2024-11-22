@@ -51,6 +51,7 @@ Thumbs.db
 # Misc.
 # ---
 ModListCreator-5.0.0-fatjar.jar
+*.code-workspace
 
 *.log
 
