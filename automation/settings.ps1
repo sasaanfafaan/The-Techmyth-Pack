@@ -26,11 +26,11 @@ $MODPACK_NAME = "techmyth-pack"
 $CLIENT_NAME = "Techmyth"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.4"
+$MODPACK_VERSION = "0.2.5"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.2.3"
+$LAST_MODPACK_VERSION = "0.2.4"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
