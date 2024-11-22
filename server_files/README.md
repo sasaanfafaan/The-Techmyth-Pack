@@ -1,6 +1,7 @@
 # Installing The Techmyth Pack
 
-*** Java 21 is required ***
+*** Java 17 or 18 is required ***
+***If you have a higher version of java installed to your PATH, edit the startserver.bat file and adjust to a local installation of Java 17***
 
   The command "java -version" is a useful check.
 
