@@ -1,1 +1,0 @@
-region_scanner.exe --path "C:\Users\iamal\curseforge\minecraft\Instances\techmyth-pack\saves\New World (2)" --dims minecraft:overworld minecraft:the_nether minecraft:the_end
