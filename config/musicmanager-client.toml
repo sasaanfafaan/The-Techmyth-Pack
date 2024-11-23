@@ -1,0 +1,8 @@
+displayRecordToast = true
+silentMusicToasts = true
+# Default: 100
+# Range: > -1
+minSongDelay = 100
+# Default: 300
+# Range: > -1
+maxSongDelay = 300

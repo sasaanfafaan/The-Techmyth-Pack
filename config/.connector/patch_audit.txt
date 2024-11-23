@@ -1,0 +1,14 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 0
+Partial: 0
+Failed: 0
+Success rate: NaN%        Accuracy: NaN%
+=============================================
+
+Mixin method de/dafuqs/additionalentityattributes/mixin/common/LivingEntityMixin additionalEntityAttributes$knockDownwards(D)D
+  >> Using org.sinytra.adapter.patch.transformer.operation.ExtractMixin
+     - Extract mixin to target net/neoforged/neoforge/common/extensions/ILivingEntityExtension
+     - Remove original method
+  >> Using org.sinytra.adapter.patch.transformer.operation.ModifyInjectionTarget
+     - Change mixin target to [sinkInFluid(Lnet/neoforged/neoforge/fluids/FluidType;)V]
+

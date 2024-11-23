@@ -1,0 +1,5 @@
+[client]
+	#Which items to override glint for
+	items = ["minecraft:enchanted_book"]
+	#Enchantment tag to color map
+	colors = ["minecraft:enchantable/mace|16777215", "minecraft:enchantable/bow|16743168", "minecraft:enchantable/mining|7819047", "minecraft:enchantable/leg_armor|65280", "minecraft:enchantable/crossbow|65535", "minecraft:enchantable/equippable|65280", "minecraft:enchantable/trident|10452991", "minecraft:enchantable/durability|7819047", "minecraft:enchantable/head_armor|65280", "minecraft:enchantable/foot_armor|65280", "minecraft:enchantable/mining_loot|7819047", "minecraft:enchantable/fishing|255", "minecraft:enchantable/vanishing|16777215", "minecraft:enchantable/sword|16711680", "minecraft:enchantable/armor|65280", "minecraft:enchantable/chest_armor|65280"]

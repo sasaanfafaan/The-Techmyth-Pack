@@ -13,24 +13,24 @@ $CURSEFORGE_USER = "sasaanfafaan"
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 1140745
+$CURSEFORGE_PROJECT_ID = 1145833
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
 # =====================================================================//
 
 # This is the modpack name as seen in its CurseForge url: https://www.curseforge.com/minecraft/modpacks/[techmyth-pack]
-$MODPACK_NAME = "techmyth-pack"
+$MODPACK_NAME = "the-techmyth-pack-neoforged"
 
 # Name of the Modpack in the ZIP File
-$CLIENT_NAME = "Techmyth"
+$CLIENT_NAME = "Techmyth-Neoforged"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.2.5"
+$MODPACK_VERSION = "1.0.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.2.4"
+$LAST_MODPACK_VERSION = "0.0.0"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -47,7 +47,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20.1/changelogs/changelog_mods_$MODPACK_VERSION.md"
+$CLIENT_CHANGELOG = "https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.21.1/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -58,7 +58,7 @@ $CLIENT_CHANGELOG = "https://github.com/sasaanfafaan/The-Techmyth-Pack/blob/1.20
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(9990)
+$GAME_VERSIONS = @(11779)
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "beta"
@@ -82,8 +82,9 @@ $CLIENT_FILE_AUTHOR = "sasaanfafaan"
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 	"config",
 	"shaderpacks",
-	"defaultconfigs",
-	"kubejs"
+	"configureddefaults",
+	"kubejs",
+	"global_packs"
 	)
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
@@ -125,13 +126,13 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 
 # Toggle server file feature on/off
 # Default: $true
-$ENABLE_SERVER_FILE_MODULE = $true
+$ENABLE_SERVER_FILE_MODULE = $false
 
 # Toggle serverstarter compatibility on/off
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $true
+$ENABLE_SERVERSTARTER_MODULE = $false
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 

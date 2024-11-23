@@ -1,0 +1,20 @@
+#Server settings
+[Server]
+	#Mobs react upon usage of the instruments [default: true]
+	mobsReact = true
+	#The area in which the instruments react with mobs. [default: 10.0]
+	# Default: 10.0
+	# Range: 0.01 ~ 128.0
+	instrumentRange = 10.0
+	#The chance of instrument sounds damaging mobs after pushing. [default: 0.35]
+	# Default: 0.35
+	# Range: 0.001 ~ 1.0
+	soundDamageChance = 0.35
+	#The chance of instrument dropping from a mob holding one [default: 0.5]
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	instrumentDropChance = 0.5
+	#The chance of instrument hurting nearby entities upon sounding [default: 0.3]
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	instrumentHurtChance = 0.3
