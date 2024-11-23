@@ -26,11 +26,11 @@ $MODPACK_NAME = "the-techmyth-pack-neoforged"
 $CLIENT_NAME = "Techmyth-Neoforged"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.1"
+$MODPACK_VERSION = "1.0.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.0.0"
+$LAST_MODPACK_VERSION = "1.0.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"

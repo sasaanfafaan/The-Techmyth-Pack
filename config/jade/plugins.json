@@ -158,8 +158,8 @@
   "waystones": {
     "waystone": true
   },
-  "gravestone": {
-    "grave": true
+  "corpse": {
+    "corpse": true
   },
   "cookingforblockheads": {
     "fridge": true,
