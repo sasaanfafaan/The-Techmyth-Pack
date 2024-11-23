@@ -1,7 +1,6 @@
 # Installing The Techmyth Pack
 
-*** Java 17 or 18 is required ***
-***If you have a higher version of java installed to your PATH, edit the startserver.bat file and adjust to a local installation of Java 17***
+*** Java 21 is required ***
 
   The command "java -version" is a useful check.
 
@@ -19,4 +18,4 @@
 	
   Details on on how to accomplish that, and configure server startup, depend accordingly on the specific hosting service.
 	
-* Some hosting services may provide for you to skip all of this and install prepared modpacks, including _Craftoria_, directly on their hosts.
+* Some hosting services may provide for you to skip all of this and install prepared modpacks, including _Techmyth_, directly on their hosts.

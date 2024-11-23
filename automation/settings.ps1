@@ -82,7 +82,7 @@ $CLIENT_FILE_AUTHOR = "sasaanfafaan"
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 	"config",
 	"shaderpacks",
-	"kubejs",
+	"kubejs"
 	)
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
