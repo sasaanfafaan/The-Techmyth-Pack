@@ -26,11 +26,11 @@ $MODPACK_NAME = "the-techmyth-pack-neoforged"
 $CLIENT_NAME = "Techmyth-Neoforged"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.2"
+$MODPACK_VERSION = "1.0.3"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.0.1"
+$LAST_MODPACK_VERSION = "1.0.2"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -82,9 +82,7 @@ $CLIENT_FILE_AUTHOR = "sasaanfafaan"
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 	"config",
 	"shaderpacks",
-	"configureddefaults",
 	"kubejs",
-	"global_packs"
 	)
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
