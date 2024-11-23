@@ -26,11 +26,11 @@ $MODPACK_NAME = "the-techmyth-pack-neoforged"
 $CLIENT_NAME = "Techmyth-Neoforged"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.3"
+$MODPACK_VERSION = "1.0.4"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.0.2"
+$LAST_MODPACK_VERSION = "1.0.3"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -89,7 +89,8 @@ $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"spark",
 	"ae2/client.json", 
 	"iris.properties",
-	"ae2-client.toml"
+	"ae2-client.toml",
+	"disccord"
 	)
 
 # Accepts directories
@@ -125,13 +126,13 @@ $ENABLE_MODPACK_UPLOADER_MODULE = $true
 
 # Toggle server file feature on/off
 # Default: $true
-$ENABLE_SERVER_FILE_MODULE = $false
+$ENABLE_SERVER_FILE_MODULE = $true
 
 # Toggle serverstarter compatibility on/off
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $false
+$ENABLE_SERVERSTARTER_MODULE = $true
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
