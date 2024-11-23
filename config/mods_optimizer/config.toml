@@ -326,6 +326,12 @@ wynntils = "client"
 yungsmenutweaks = "client"
 zmedievalmusic = "client"
 zoomify = "client"
+sounds = "client"
+sodiumextras = "client"
+satisfying_buttons = "client"
+sodiumleafculling = "client"
+sodiumoptionsapi = "client"
+invtweaks = "default"
 
 [Debug]
 debugForceSide = "default"

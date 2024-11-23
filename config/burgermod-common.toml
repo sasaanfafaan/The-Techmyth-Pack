@@ -1,0 +1,4 @@
+	#Loot related config options
+	[common.loot_config]
+		#If true, items from this mod are added to vanilla loot tables. True by default.
+		generateChestLoot = true

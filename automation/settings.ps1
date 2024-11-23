@@ -26,16 +26,16 @@ $MODPACK_NAME = "the-techmyth-pack-neoforged"
 $CLIENT_NAME = "Techmyth-Neoforged"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.0"
+$MODPACK_VERSION = "1.0.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "0.0.0"
+$LAST_MODPACK_VERSION = "1.0.0"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
 # default: "forge"
-$MODLOADER = "forge"
+$MODLOADER = "neoforge"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -90,6 +90,7 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @(
 	"spark",
 	"ae2/client.json", 
+	"iris.properties",
 	"ae2-client.toml"
 	)
 

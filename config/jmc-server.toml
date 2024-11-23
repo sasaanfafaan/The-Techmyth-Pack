@@ -1,0 +1,8 @@
+#Configs relating to interactions with the Jade mod
+["Jade Plugin"]
+	#Allows Jade to display the effects a cake will apply when eaten
+	#If false this will override the value of the client's plugin equivalent
+	allowDisplayingCakeEffects = true
+	#Hide trapped cakes in Jade by making them display as normal cakes
+	#If true this will override the value of the client's plugin equivalent
+	hideTrappedCakes = false

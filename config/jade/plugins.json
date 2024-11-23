@@ -50,6 +50,20 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jmc": {
+    "cake_stand": true,
+    "candle_type": true,
+    "cake_nourishment.food_icons_per_line": 10,
+    "hide_trapped_cakes": false,
+    "cake_nourishment.show_nutrition": true,
+    "cake_oven.item_storage_remover": true,
+    "cake_effects": true,
+    "cake_nourishment": true,
+    "cake_nourishment.display_type": "TOTAL",
+    "cake_oven": true,
+    "ceramic_bowl": true,
+    "cake_nourishment.show_saturation": true
+  },
   "apothic_spawners": {
     "spawner": true
   },
@@ -85,6 +99,9 @@
   "modern_industrialization": {
     "overclock": true,
     "pipe": true
+  },
+  "telepastries": {
+    "bites": true
   },
   "lootr": {
     "info": true
